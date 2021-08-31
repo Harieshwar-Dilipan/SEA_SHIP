@@ -1,5 +1,5 @@
 var ship,travellingShip;
-var sea;seaImage;
+var sea,seaImage;
 
 function preload(){
   travellingShip=loadAnimation("ship-1.png","ship-2.png","ship-3.png","ship-4.png");
