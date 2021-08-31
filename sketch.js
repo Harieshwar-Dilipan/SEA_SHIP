@@ -25,8 +25,8 @@ function setup(){
 function draw() {
   background("lightblue");
 console.log(sea.x);
-  if(sea.x<2000){
-    sea.x=sea.legnth/2;
+  if(sea.x>700){
+    sea.x=300;
   }
 
   drawSprites();
